@@ -1,0 +1,38 @@
+/* reset dos elementos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body-container{
+    background-color: rgb(255, 214, 214);
+    text-align: center;
+
+}
+
+
+
+.header-container{
+    height: 100px;
+    height: 80px;
+    background-color: rgb(248, 250, 214);
+    text-align: center;
+}
+
+.header-container a {
+    display: inline-block;
+    background-color: rgb(253, 235, 155);
+    text-decoration: none;
+    font-size: x-large;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 15px;
+
+    padding: 15px;
+
+    border: 2px solid rgb(248, 172, 172);
+
+}
