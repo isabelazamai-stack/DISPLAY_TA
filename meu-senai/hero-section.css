@@ -17,6 +17,7 @@ body{
     background-color:rgb(245, 215, 229);
     width: 100vw;
     height: 100vh;
+    
 }
 
 html{    
@@ -33,31 +34,37 @@ html{
 
         width: 100%;
         height: 33%;
-        background-color: crimson;
+        background-color: rgb(245, 215, 229);
 }
 
 .banner-header{
-    width: 90%;
-    height: 90%;
+    width: 1116px;
+    height: 70%;
     background-color: rgb(250, 175, 175);
+    margin: auto;
 }
 
 .content-hero{
+    width: 60%;
+    height: 67%;
+    margin: auto;
+
     display: flex;
     /* alinhamento horizontal (x) */
-    justify-content: center;
+    justify-content: space-between;
     /* alinhamento vertical (y) */
     align-items: center;
 }
 
-.content-hero--left,.content-hero--center,.content-hero--right{ 
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.box{ 
+    border: 2px solid rgb(247, 164, 164) ;
+    width: 360px;
+    height: 480px;
+    background-color: rgb(253, 242, 228);
+    border-radius: 20px;
+    margin: auto;
+}
 
-    border: 2px solid;
-    width: 200px;
-    height: 300px;
-    background-color: rgb(245, 233, 179);
+.content-hero--left{
+    
 }
