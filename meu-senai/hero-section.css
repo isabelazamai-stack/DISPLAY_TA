@@ -42,6 +42,7 @@ html{
     height: 70%;
     background-color: rgb(250, 175, 175);
     margin: auto;
+    border-radius: 20PX;
 }
 
 .content-hero{
