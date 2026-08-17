@@ -1,0 +1,63 @@
+/* Reset */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* estilizar utilizando o seleor de uma TAG */
+
+/* Síntaxe do CSS:
+
+seletor(propriedade: valor) --> regra do css
+*/
+
+body{
+    background-color:rgb(245, 215, 229);
+    width: 100vw;
+    height: 100vh;
+}
+
+html{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilizando utilizando uma classe como seletor */
+
+.content-header{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 33%;
+        background-color: crimson;
+}
+
+.banner-header{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(250, 175, 175);
+}
+
+.content-hero{
+    display: flex;
+    /* alinhamento horizontal (x) */
+    justify-content: center;
+    /* alinhamento vertical (y) */
+    align-items: center;
+}
+
+.content-hero--left,.content-hero--center,.content-hero--right{ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(245, 233, 179);
+}

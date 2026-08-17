@@ -111,3 +111,16 @@ html{
     background-color: rgb(245, 212, 120);
 }
 
+.link-lista{
+    
+    font-size: medium;
+    line-height: 30px;
+    
+}
+/* Display none: não aparece na tela
+Diplay inline: elementos são em linhas 
+não aceita largura e altura (ocupa apenas o seu espaço)
+Display block: elementos são um abaixo do outro
+aceita largura e altura (ocupa linha inteira)
+Display inline-block: elementos em linha + largura e altura */
+
