@@ -57,7 +57,7 @@ html{
 }
 
 .box{ 
-    border: 2px solid rgb(247, 164, 164) ;
+    border: 2px solid rgb(250, 250, 250) ;
     width: 360px;
     height: 480px;
     background-color: rgb(253, 242, 228);
@@ -66,5 +66,17 @@ html{
 }
 
 .content-hero--left{
-    
+
+}
+
+.content-hero--header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: crimson;
+    width: 100%;
+    height: 10%;
+    border-radius: 20px 20px 0 0 ;
+    pad: 5px;
+    color: #fff;
 }
