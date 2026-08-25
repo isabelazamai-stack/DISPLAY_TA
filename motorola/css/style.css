@@ -15,7 +15,6 @@ body{
 
 .conteudo-principal{
     background-color: rgb(255, 255, 255);
-
     width: 1180px;
     height: 650px;
     display: flex;
@@ -34,7 +33,7 @@ img{
 .conteudo-principal_direita{
     width: 670px;
     height: 600px;
-    background-color: rgb(235, 95, 95);
+    background-color: rgb(255, 255, 255);
     margin: 30px;
     
 }
@@ -43,21 +42,26 @@ img{
 .conteudo-principal_direita--titulo{
     height: 33%;
     width: 670px;
-    background-color: rgb(133, 117, 117);
+    background-color: rgb(255, 255, 255);
     font-size: 25px;
+    font-family: sans-serif;
 }
 
 .conteudo-principal_direita--descricao{
     display: flex;
     height: 33%;
     width: 670px;
-    background-color: rgb(253, 84, 84);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 .conteudo-principal_direita--carregue{
     height: 33%;
     width: 670px;
-    background-color: rgb(235, 63, 63);
+    background-color: rgb(255, 253, 253);
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 
