@@ -8,7 +8,7 @@
 }
 
 .color-section__sidebar{
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,62 +21,100 @@
 
 .color-section__title{
 
+    color: var(--ui-text-title);
+    font-size: 20px;
+    /* peso da fonte NÃO utiliza PX */
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+    /* Espaço entre as letras */
+    letter-spacing: 0.5px;
+
 }
 
 .color-section__menu{
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 
 }
 
 .color-section__link{
 
+    color: var(--ui-text-link);
+    text-decoration: none;
+    font-size: 14px;
+    /* Peso da fonte(não usar PX) */
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 30px;
+    text-align: center;
+    /* Quando um elemento perde o foco/ganha o foco */
+    transition: all 0.2s ease-in-out;
+
+
 }
 
 .color-section__link--active{
+
+    color: var(--ui-link-active-text);
+    background-color: var(--ui-link-active-bg);
+    /* Sombra V H blu spread color */
+    box-shadow: 0 1px 6px rgba(255, 22, 22, 0.25);
 
 }
 
 .color-section__link--active:hover{
 
+    /* alterar o formato do elemento */
+    transform: scale(1.05);
+
 }
 
-.color-section__link:not{}
+.color-section__link:not(.color-section__link--active):hover {
+
+    color: var(--ui-text-title);
+    background-color: var(--ui-link-hover-bg);
+}
 
 .color-section__bar{
+
+    /* Faz com que as 6 colunas dividam igualmente o espaço restante*/
+    flex-grow: 1;
+    height: 100%;
+
+    /* efeito de transição suave */
+    transition: transform 0.25s ease;
+}
+
+.color-section__bar:hover{
+    transform: scaleX(1.02);
+    z-index: 10;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 .color-section__bar--rgb-1{
-    background-color:rgb(255, 0, 0);
-    width: 16%;
-    height: 100vh;}
+}
 
 .color-section__bar--rgb-2{
-    background-color:rgb(255, 174, 0);
-    width: 16%;
-    height: 100vh;
+
 }
 
 .color-section__bar--rgb-3{
-    background-color:rgb(157, 255, 0);
-    width: 16%;
-    height: 100vh;
+
 }
 
 .color-section__bar--rgb-4{
-    background-color:rgb(4, 0, 255);
-    width: 16%;
-    height: 100vh;
+
 }
 
 .color-section__bar--rgb-5{
-    background-color:rgb(153, 0, 255);
-    width: 16%;
-    height: 100vh;
+
 }
 
 .color-section__bar--rgb-6{
-    background-color:rgb(255, 0, 170);
-    width: 16%;
-    height: 100vh;
+
 }
 
 .color-section__bar--cmyk-1{}

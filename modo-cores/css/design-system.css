@@ -1,11 +1,11 @@
 :root{
     /* Cores Globais da Interface (Menu Lateral) */
-    --ui-bg-sidebar: #faf9e1;
+    --ui-bg-sidebar: #ffefda;
     --ui-border: #fae25a;
-    --ui-text-title: #ffffff;
-    --ui-text-link: #a8a8b3;
-    --ui-link-hover-bg: #3b3b45;
-    --ui-link-active-bg: #7500c8;
+    --ui-text-title: #4b300d;
+    --ui-text-link: #94551a;
+    --ui-link-hover-bg: #fccbcb;
+    --ui-link-active-bg: #fcafaf;
     --ui-link-active-text: #ffffff;
 
 
