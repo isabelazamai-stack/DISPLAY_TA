@@ -145,6 +145,7 @@
 
 .color-section__bar--google-1{
     background-color: var(--color-google-1);
+
 }
 
 .color-section__bar--google-2{
@@ -157,4 +158,16 @@
 
 .color-section__bar--google-4{
     background-color: var(--color-google-4);
+}
+
+.color-section__bar--netflix-1{
+    background-color: var(--color-netflix-1);
+}
+
+.color-section__bar--netflix-2{
+    background-color: var(--color-netflix-2);
+}
+
+.color-section__bar--netflix-3{
+    background-color: var(--color-netflix-3);
 }
