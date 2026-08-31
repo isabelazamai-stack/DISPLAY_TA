@@ -38,7 +38,6 @@ img{
     
 }
 
-
 .conteudo-principal_direita--titulo{
     height: 33%;
     width: 670px;
@@ -46,6 +45,7 @@ img{
     font-size: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .conteudo-principal_direita--descricao{
     display: flex;
@@ -62,6 +62,7 @@ img{
     background-color: rgb(255, 253, 253);
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: "center"
 }
 
 
