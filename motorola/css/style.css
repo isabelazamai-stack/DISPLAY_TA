@@ -6,7 +6,6 @@
 }
 
 body{
-    background-color:rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
     align-content: center;
@@ -14,17 +13,24 @@ body{
 }
 
 .conteudo-principal{
-    background-color: rgb(255, 255, 255);
+
     width: 1180px;
     height: 650px;
     display: flex;
+    gap: 15px;
 }
 
 .conteudo-principal_esquerda{
-    width: 450px;
+    width: 510px;
     height: 650px;
     background-color: rgb(248, 86, 86);
 }
+
+.conteudo-principal sup{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
 img{
     width: 450px;
     height: 650px;
@@ -32,18 +38,25 @@ img{
 
 .conteudo-principal_direita{
     width: 670px;
-    height: 600px;
-    background-color: rgb(255, 255, 255);
+    height: 650px;
     margin: 30px;
     
 }
 
 .conteudo-principal_direita--titulo{
-    height: 33%;
+    height: 130px;
     width: 670px;
-    background-color: rgb(255, 255, 255);
     font-size: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.conteudo-principal_direita--sub_titulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6CA9F9;
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
 }
 
 
@@ -51,18 +64,20 @@ img{
     display: flex;
     height: 33%;
     width: 670px;
-    background-color: rgb(255, 255, 255);
     font-size: 20px;
+    gap: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .conteudo-principal_direita--carregue{
     height: 33%;
     width: 670px;
-    background-color: rgb(255, 253, 253);
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: "center"
+    display: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
