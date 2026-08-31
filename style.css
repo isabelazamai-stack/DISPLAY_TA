@@ -70,7 +70,7 @@ font-family: Verdana, sans-serif;
 .header-container a:hover{
 
     background-color: var(--bg-logo);
-    border: 2px solid rgb(184, 0, 86);
+    border: 2px solid rgb(255, 175, 212);
     color: var(--cor-fonte-logo);
 
 }
