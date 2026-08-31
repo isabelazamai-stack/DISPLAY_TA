@@ -13,11 +13,11 @@
 seletor(propriedade: valor) --> regra do css
 */
 
+
 body{
     background-color:rgb(245, 215, 229);
     width: 100vw;
     height: 100vh;
-    
 }
 
 html{    
