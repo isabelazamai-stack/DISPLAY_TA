@@ -9,5 +9,16 @@ body{
     justify-items: center;
 }
 
+.brands{
+    width: 1152px;
+    height: 621px;
+    display: center;
+    gap: 15px;
+}
+
+.brand__title{
+    font-family: system-ui, Roboto;
+    font-size: 24px;
+}
 
 
