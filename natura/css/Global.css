@@ -44,6 +44,14 @@
     margin-bottom: 15px;
 }
 
+.brand-card__image span{
+    color: #555;
+}
 
+.brand-card__title{
+    font-size: 20px;
+    font-weight: 700;
+}
 
+.brand-card__description
 
