@@ -1,2 +1,24 @@
 @import url(./Reset.css);
 
+
+body{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+
+.conteudo-principal{
+    width: 1152px;
+    height: 692px;
+    display: flex;
+}
+
+.conteudo-principal-titulo{
+    width: 1152px;
+    height: 32px;
+    background-color: rgb(252, 154, 154);
+    font-family:system-ui, Roboto, sans-serif;
+    
+
+}
