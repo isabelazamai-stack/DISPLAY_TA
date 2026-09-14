@@ -3,28 +3,38 @@
 @import url(./design-system.css);
 
 
-body{
-    padding: 30px;
-    /* width: 100vw;
-    height: 100vh;
-    align-content: center;
-    justify-items: center; */
-}
-
 .brands{
-    width: 1152px;
-    height: 621px;
-    display: center;
-    gap: 15px;
+    padding: 30px;
 }
 
-.brand__title{
+.brands__title{
     /* font-family: system-ui, Roboto; */
     font-size: 24px;
+    margin-bottom: 30px;
 }
 
-.brand__grid{
-    
+.brands__title h1{
+    font-size: 28px;
+    font-weight: 700;
 }
+
+.brands__grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.brand-card {
+    /* crescer se houver espaço */
+    flex-grow: 1;
+    /* escolhe se a tela diminuir */
+    flex-shrink: 1;
+    /* largura base de cada card */
+    flex-basis: 280px;
+}
+
+
+
+
 
 
