@@ -66,9 +66,9 @@
     align-items: flex-start;
     padding: 10px 20px;
     background-color: transparent;
-    border: 1px solid #777;
+    border: 1px solid #ffcdcd;
     border-radius: 30px;
-    color: #555;
+    color: #ff9191;
     cursor: pointer;
 }
 .brand-card__button:hover{
