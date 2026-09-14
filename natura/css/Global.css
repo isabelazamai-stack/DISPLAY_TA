@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./Reset.css);
 @import url(./design-system.css);
 
 
 body{
-    width: 100vw;
+    padding: 30px;
+    /* width: 100vw;
     height: 100vh;
     align-content: center;
-    justify-items: center;
+    justify-items: center; */
 }
 
 .brands{
@@ -17,8 +19,12 @@ body{
 }
 
 .brand__title{
-    font-family: system-ui, Roboto;
+    /* font-family: system-ui, Roboto; */
     font-size: 24px;
+}
+
+.brand__grid{
+    
 }
 
 
