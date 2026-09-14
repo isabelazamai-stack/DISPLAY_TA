@@ -1,4 +1,5 @@
 @import url(./Reset.css);
+@import url(./design-system.css);
 
 
 body{
@@ -8,17 +9,5 @@ body{
     justify-items: center;
 }
 
-.conteudo-principal{
-    width: 1152px;
-    height: 692px;
-    display: flex;
-}
 
-.conteudo-principal-titulo{
-    width: 1152px;
-    height: 32px;
-    background-color: rgb(252, 154, 154);
-    font-family:system-ui, Roboto, sans-serif;
-    
 
-}
