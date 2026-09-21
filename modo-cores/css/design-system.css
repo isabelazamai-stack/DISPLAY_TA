@@ -9,15 +9,15 @@
     --ui-link-active-text: #ffffff;
 
     /* Cores e Estilos do FAQ (Tons mais claros que a Sidebar) */
-    --faq-bg: #ffdeda;
-    --faq-card-bg: #16264f;
-    --faq-card-hover-bg: #1e3266;
-    --faq-border: #2a3e75;
+    --faq-bg: #ffc3bc;
+    --faq-card-bg: #ff9688;
+    --faq-card-hover-bg: #ffffff;
+    --faq-border: #020202;
     --faq-border-neon: #7500c8;
-    --faq-border-neon-glow: #9d26ef;
+    --faq-border-neon-glow: #fff0c7;
     --faq-text-title: #94551a;
     --faq-text-question: #e2e8f0;
-    --faq-text-answer: #94a3b8;
+    --faq-text-answer: #030303;
 
     /* Paleta do Sistema RGB */
     --color-rgb-1: rgb(255, 0, 0);
