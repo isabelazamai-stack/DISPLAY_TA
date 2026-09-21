@@ -53,8 +53,6 @@
     text-align: center;
     /* Quando um elemento perde o foco/ganha o foco */
     transition: all 0.2s ease-in-out;
-
-
 }
 
 .color-section__link--active{
@@ -83,7 +81,7 @@
 
     /* Faz com que as 6 colunas dividam igualmente o espaço restante*/
     flex-grow: 1;
-    height: 100%;
+    height: 43vh;
 
     /* efeito de transição suave */
     transition: transform 0.25s ease;
@@ -171,4 +169,10 @@
 
 .color-section__bar--netflix-3{
     background-color: var(--color-netflix-3);
+}
+
+.faq{
+    width: 50%;
+    height: 450px;
+    border: 2px solid;
 }

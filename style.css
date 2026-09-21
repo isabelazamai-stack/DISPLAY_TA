@@ -33,25 +33,17 @@ font-family: Verdana, sans-serif;
     color: var(--cor-fonte-logo);
 }
 
-
 .body-container{
 
     background-color: rgb(241, 153, 172);
 
 }
 
-
-
-
-
 .header-container {
     display: flex;
     width: 100%;
     height: 100px;
     background-color: var(--bg-logo);
-   
-   
-    
 }
 
 .header-container a {
@@ -76,14 +68,10 @@ font-family: Verdana, sans-serif;
 }
 
 .logo{
-    
-    
     width: 30%;
     height: 100px;
     background-color: var(--bg-logo);
     color: var(--cor-fonte-logo);
-    
-
 }
 
 .menu{
@@ -108,7 +96,6 @@ font-family: Verdana, sans-serif;
     
  }
 
-
  .section01--title{
     margin-bottom: 10px;
 }
@@ -117,15 +104,35 @@ font-family: Verdana, sans-serif;
     
     font-size: medium;
     line-height: 30px;
-    
 }
 
+.faq{
+    width: 100%;
+    border: 2px solid;
+    margin-left: 25px;
 
+}
 
+.faq details{
+    background-color: #ffd5d5;
+    color: #030303;
+    line-height: 40px;
+    padding: 10px 20px;
+}
 
-/* Display none: não aparece na tela
-Diplay inline: elementos são em linhas 
-não aceita largura e altura (ocupa apenas o seu espaço)
-Display block: elementos são um abaixo do outro
-aceita largura e altura (ocupa linha inteira)
-Display inline-block: elementos em linha + largura e altura */
+.faq summary{
+    background: #fff0d0;
+    list-style: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.faq summary:hover{
+    cursor: pointer;
+}
+
+.faq p{
+    color: rgb(119, 71, 0);
+    line-height: 25px;
+    padding: 15px;
+}
