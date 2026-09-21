@@ -55,7 +55,7 @@
 
 .brand-card__description{
     font-family: "Montserrat", sans-serif;
-    color: #555;
+    color: #ff6666;
     font-size: 16px;
     line-height: 1.6;
     /* tamanho máximo */
@@ -72,7 +72,7 @@
     cursor: pointer;
 }
 .brand-card__button:hover{
-    background-color: #555;
+    background-color: #ffa3a3;
     color: white;
 }
 
