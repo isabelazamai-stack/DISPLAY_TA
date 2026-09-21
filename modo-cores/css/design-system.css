@@ -1,7 +1,7 @@
 :root{
     /* Cores Globais da Interface (Menu Lateral) */
-    --ui-bg-sidebar: #ffefda;
-    --ui-border: #fae25a;
+    --ui-bg-sidebar: #ffdeda;
+    --ui-border: #ffffff;
     --ui-text-title: #4b300d;
     --ui-text-link: #94551a;
     --ui-link-hover-bg: #fccbcb;
@@ -9,13 +9,13 @@
     --ui-link-active-text: #ffffff;
 
     /* Cores e Estilos do FAQ (Tons mais claros que a Sidebar) */
-    --faq-bg: #0d1b3e;
+    --faq-bg: #ffdeda;
     --faq-card-bg: #16264f;
     --faq-card-hover-bg: #1e3266;
     --faq-border: #2a3e75;
     --faq-border-neon: #7500c8;
     --faq-border-neon-glow: #9d26ef;
-    --faq-text-title: #ffffff;
+    --faq-text-title: #94551a;
     --faq-text-question: #e2e8f0;
     --faq-text-answer: #94a3b8;
 
