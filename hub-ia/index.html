@@ -20,6 +20,7 @@
             background-color: olive;
             color: white;
             font-family: Arial, sans-serif;
+            height: 300vh;
         }
 
         h1{
@@ -44,6 +45,56 @@
             
         }
 
+
+        .container-position{
+            margin-top: 10px;
+            width: 100%;
+            height: 600px;
+            border: 2px solid white;
+            position: relative;
+        }
+
+        .filho-tamanho{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 255, 255);
+            
+        }
+
+        .container-position__filho01{
+            top: 0;
+            left: 0;
+        }
+
+        .container-position__filho02{
+            top: 0;
+            right: 0;
+        }
+
+        .container-position__filho03{
+            bottom: 0;
+            left: 0;
+        }
+
+        .container-position__filho04{
+            bottom: 0;
+            right: 0;
+        }
+
+        .whats{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgb(99, 209, 36);
+            border: 2px solid #fff;
+            box-shadow: 1px 2px 2px #fff;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+        }
+
+
         @media(min-width: 768px) {
             body {
                 background-color: blue;
@@ -57,6 +108,9 @@
             body {
                 background-color: tan;
                 color: black;
+            }
+            .box{
+                width: 300px;
             }}
 
 
@@ -70,5 +124,14 @@
         <div class="box"></div>
         <div class="box"></div>
     </div>
+
+    <div class="container-position">
+        <div class="container-position__filho01 filho-tamanho"></div>
+        <div class="container-position__filho02 filho-tamanho"></div>
+        <div class="container-position__filho03 filho-tamanho"></div>
+        <div class="container-position__filho04 filho-tamanho"></div>
+    </div>
+
+    <div class="whats"></div>
 </body>
 </html>
