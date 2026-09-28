@@ -17,7 +17,7 @@
 
         body{
             padding: 20px;
-            background-color: rgb(221, 171, 255);
+            background-color: olive;
             color: white;
             font-family: Arial, sans-serif;
         }
@@ -32,6 +32,8 @@
             display: flex;
             gap: 15px;
             justify-content: center;
+            flex-wrap: wrap;
+
         }
 
         .box{
@@ -39,16 +41,22 @@
             max-width: 400px;
             height: 200px;
             background-color: black;
+            
         }
 
-        @media(min-width: 768px){
-            body{
-                background-color: rgb(255, 7, 160) ;
-            }}
-        
-        @media(max-width: 480px) {
+        @media(min-width: 768px) {
             body {
-                background-color: rgb(206, 255, 174);
+                background-color: blue;
+                color: white;
+            }
+            .box{
+                width: 349px;
+            }}
+
+        @media (min-width: 992px) {
+            body {
+                background-color: tan;
+                color: black;
             }}
 
 
